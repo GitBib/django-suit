@@ -61,6 +61,30 @@ body.suit_form_submit_on_right .col-right {
         order: 10;
       }
     }
+    .default {
+      background-color: #4298DE;
+      border-color: #4298DE;
+    }
+    input[name="_addanother"] {
+      color: #373a3c;
+      background-color: #fff;
+      border-color: #ccc;
+    }
+    input[name="_continue"] {
+      color: #373a3c;
+      background-color: #fff;
+      border-color: #ccc;
+    }
+    input[name="_addanother"]:hover {
+      color: #373a3c;
+      background-color: #e6e6e6;
+      border-color: #adadad;
+    }
+    input[name="_continue"]:hover {
+      color: #373a3c;
+      background-color: #e6e6e6;
+      border-color: #adadad;
+    }
   }
 
   .object-tools {
