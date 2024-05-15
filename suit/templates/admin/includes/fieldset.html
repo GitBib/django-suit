@@ -29,6 +29,11 @@
                 {% else %}
                     {{ field.field }}
                 {% endif %}
+
+                {% if field.field|suit_form_field_widget_class == "widget-AdminFileWidget" %}
+                    <a onclick="document.getElementById('{{ field.field.id_for_label }}').value = ''; return false;" href="/" class="deletelink">Сбросить</a>
+                {% endif %}
+
                 {% if field.errors and not is_single and not field.is_readonly %}
                     <div class="text-help">
                         {{ field.errors }}
