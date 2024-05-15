@@ -83,6 +83,7 @@ $filter-col-width: 15rem;
     h2 {
       margin-bottom: $grid-gutter-width-base*0.5;
       display: none;
+
     }
 
     h3 {
@@ -92,6 +93,14 @@ $filter-col-width: 15rem;
       font-weight: normal;
       padding: $grid-gutter-width-base*0.25 math.div($grid-gutter-width-base, 3);
       margin: 0;
+    }
+
+    details {
+      summary{
+        color: #fff;
+        background-color: $inverse-lightest;
+        padding: .46875rem .625rem;
+      }
     }
 
     ul {
