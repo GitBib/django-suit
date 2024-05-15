@@ -2,6 +2,7 @@
   font-size: $font-size-sm;
   color: $header-muted-color;
   position: relative;
+  width: max-content;
 
   li {
     float: left;
@@ -20,7 +21,7 @@
 
 body.suit_layout_vertical {
   #container {
-    > .breadcrumbs {
+   .breadcrumbs {
       display: block;
       position: absolute;
       padding: 1.5rem $grid-gutter-width-base;
